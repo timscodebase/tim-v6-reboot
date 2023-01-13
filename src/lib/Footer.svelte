@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <footer>
 	<section>
 		<a href="https://github.com/timscodebase" target="_blank" rel="noopener noreferrer">Github</a>
