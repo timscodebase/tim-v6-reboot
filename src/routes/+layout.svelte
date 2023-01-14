@@ -1,7 +1,9 @@
 <script lang="ts">
-	import Header from '$lib/Header.svelte';
-	import Footer from '$lib/Footer.svelte';
-	import Analytics from '$lib/analytics.svelte';
+	import Header from '$lib/Header.svelte'
+	import Footer from '$lib/Footer.svelte'
+	import Analytics from '$lib/analytics.svelte'
+	import '$lib/app.css'
+	import '$lib/print.css'
 </script>
 
 <div class="page-wrapper">
