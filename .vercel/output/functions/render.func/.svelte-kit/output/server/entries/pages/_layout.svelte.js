@@ -80,8 +80,6 @@ const Analytics = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 		gtag('config', 'MEASUREMENT_ID');
 	<\/script><!-- HEAD_svelte-9vyxlj_END -->`, ""}`;
 });
-const app = "";
-const print = "";
 const _layout_svelte_svelte_type_style_lang = "";
 const css = {
   code: ".page-wrapper.svelte-1tt1fv3{margin:0 auto;max-width:1200px}",
