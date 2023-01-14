@@ -1,0 +1,264 @@
+:root {
+	--font-size-base: clamp(1.5rem, 0.34vw + 0.91rem, 1.19rem);
+	--font-size-md: clamp(1rem, 1.2vw + 0.91rem, 2.2rem);
+	--font-size-lg: clamp(1.2rem, 1.9vw + 1.2rem, 3rem);
+	--font-size-xl: clamp(2.44rem, 3.5vw + 1.85rem, 8.5rem);
+
+	--white: hsl(10, 21%, 95%);
+	--light-blue: rgb(143, 181, 209);
+
+	--color-text: var(--white);
+	--color-blue: #001180;
+	--color-orange: hsl(24deg 88% 60%);
+	--color-footer: var(--light-blue);
+
+	--accent: var(--color-orange);
+
+	--spacer: 2rem;
+	--border-radius: 3rem;
+
+	--gradient-red: linear-gradient(45deg,
+			#f50000 0%,
+			hsl(9deg 91% 53%) 18%,
+			hsl(14deg 90% 55%) 34%,
+			hsl(17deg 89% 57%) 48%,
+			hsl(21deg 89% 59%) 58%,
+			hsl(24deg 88% 60%) 66%,
+			hsl(27deg 88% 61%) 72%,
+			hsl(31deg 87% 62%) 78%,
+			hsl(34deg 87% 63%) 87%,
+			hsl(37deg 86% 64%) 100%);
+
+	--gradient-blue: linear-gradient(140deg,
+			hsl(236deg 94% 14%) 1%,
+			hsl(232deg 100% 16%) 32%,
+			hsl(232deg 100% 19%) 43%,
+			hsl(232deg 100% 22%) 51%,
+			hsl(232deg 100% 25%) 58%,
+			hsl(233deg 100% 28%) 64%,
+			hsl(233deg 100% 31%) 69%,
+			hsl(233deg 100% 34%) 75%,
+			hsl(234deg 100% 37%) 82%,
+			hsl(236deg 94% 41%) 100%);
+
+	--gradient-blue: linear-gradient(180deg,
+			hsl(236deg 94% 14%) 1%,
+			hsl(232deg 100% 16%) 32%,
+			hsl(232deg 100% 19%) 43%,
+			hsl(232deg 100% 22%) 51%,
+			hsl(232deg 100% 25%) 58%,
+			hsl(233deg 100% 28%) 64%,
+			hsl(233deg 100% 31%) 69%,
+			hsl(233deg 100% 34%) 75%,
+			hsl(234deg 100% 37%) 82%,
+			hsl(236deg 94% 41%) 100%);
+
+	--gradient-pruple: linear-gradient(45deg,
+			hsl(283deg 42% 12%) 0%,
+			hsl(283deg 48% 13%) 11%,
+			hsl(282deg 54% 14%) 22%,
+			hsl(281deg 59% 15%) 33%,
+			hsl(281deg 64% 16%) 44%,
+			hsl(281deg 68% 17%) 56%,
+			hsl(280deg 73% 19%) 67%,
+			hsl(280deg 79% 20%) 78%,
+			hsl(280deg 85% 21%) 89%,
+			hsl(280deg 91% 21%) 100%);
+
+	--shadow-elevation-low:
+		0px 0.4px 0.5px hsl(var(--shadow-color) / 0.24),
+		0px 0.7px 0.9px -0.9px hsl(var(--shadow-color) / 0.3),
+		0px 1.7px 2.1px -1.8px hsl(var(--shadow-color) / 0.36);
+	--shadow-elevation-medium:
+		0px 0.4px 0.5px hsl(var(--shadow-color) / 0.2),
+		0px 1.2px 1.5px -0.5px hsl(var(--shadow-color) / 0.23),
+		0px 2.3px 2.8px -0.9px hsl(var(--shadow-color) / 0.26),
+		0px 4.5px 5.5px -1.4px hsl(var(--shadow-color) / 0.29),
+		0px 8.3px 10.1px -1.8px hsl(var(--shadow-color) / 0.32);
+	--shadow-elevation-high:
+		0px 0.4px 0.5px hsl(var(--shadow-color) / 0.19),
+		0px 2.4px 2.9px -0.2px hsl(var(--shadow-color) / 0.2),
+		0px 4.2px 5.1px -0.4px hsl(var(--shadow-color) / 0.22),
+		0px 6.2px 7.6px -0.6px hsl(var(--shadow-color) / 0.23),
+		0px 8.7px 10.6px -0.8px hsl(var(--shadow-color) / 0.24),
+		-0.1px 12.1px 14.8px -1px hsl(var(--shadow-color) / 0.26),
+		-0.1px 16.6px 20.3px -1.2px hsl(var(--shadow-color) / 0.27),
+		-0.1px 22.7px 27.8px -1.4px hsl(var(--shadow-color) / 0.28),
+		-0.1px 30.7px 37.5px -1.6px hsl(var(--shadow-color) / 0.3),
+		-0.2px 40.8px 49.9px -1.8px hsl(var(--shadow-color) / 0.31);
+}
+
+@font-face {
+	font-family: 'Prompt';
+	src: url('/fonts/Prompt-Black.ttf') format('truetype');
+	font-weight: bolder;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Prompt Italic';
+	src: url('/fonts/Prompt-BlackItalic.ttf') format('truetype');
+	font-weight: bolder;
+	font-style: italic;
+	font-display: swap;
+}
+
+body {
+	margin: 0;
+	padding: 0 2rem;
+	padding-bottom: 0;
+}
+
+html {
+	font-family: system-ui, sans-serif;
+	font-size: var(--font-size-base);
+	color: var(--color-text);
+	background: var(--gradient-blue);
+}
+
+a {
+	cursor: url('$lib/images/pointer.png'), auto;
+}
+
+button {
+	cursor: url('$lib/images/pointer.png'), auto;
+}
+
+html {
+	cursor: url('$lib/images/cursor.png'), auto;
+}
+
+footer {
+	margin: 0;
+}
+
+@keyframes background {
+
+	0%,
+	100% {
+		background: var(--gradient-blue);
+	}
+
+	50% {
+		background: var(--gradient-pruple);
+	}
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a {
+	color: var(--color-text);
+	text-decoration: none;
+}
+
+@keyframes pulse {
+
+	0%,
+	100% {
+		background-position-y: 0%;
+	}
+
+	50% {
+		background-position-y: 90%;
+	}
+}
+
+article {
+	page-break-after: auto;
+}
+
+h1 {
+	margin: 2rem 0;
+	font-size: var(--font-size-xl);
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Prompt', sans-serif;
+	font-size: var(--font-size-lg);
+	margin-top: 0;
+}
+
+h3 {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+p {
+	margin: 0;
+}
+
+@media (max-width: 900px) {
+	body {
+		padding: 0;
+	}
+
+	html {
+		padding: 0 1rem;
+	}
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 5rem;
+	}
+}
+
+code {
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+		Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.shake {
+	animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+	transform: translate3d(0, 0, 0);
+	perspective: 1000px;
+}
+
+@keyframes shake {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, -1px, -1px);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(2px, 2px, 2px);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-4px, -4px, -4px);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(4px, 4px, 4px);
+	}
+}
+
+html::-webkit-scrollbar {
+	width: 0.75rem;
+	height: 100%;
+}
+
+html::-webkit-scrollbar-track {
+	background: var(--color-blue);
+}
+
+html::-webkit-scrollbar-thumb {
+	display: block;
+	width: 0.75rem;
+	height: 0.75rem;
+	border-radius: 50vw;
+	border: 2px solid var(--white);
+	background: var(--gradient-red);
+}
