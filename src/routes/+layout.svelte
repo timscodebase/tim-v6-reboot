@@ -2,6 +2,9 @@
 	import Header from '$lib/Header.svelte'
 	import Footer from '$lib/Footer.svelte'
 	import Analytics from '$lib/analytics.svelte'
+
+	import './app.css'
+	import './print.css'
 </script>
 
 <div class="page-wrapper">
