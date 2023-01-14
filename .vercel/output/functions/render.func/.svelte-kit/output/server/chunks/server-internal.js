@@ -51,7 +51,7 @@ ${components[1] ? `${validate_component(components[0] || missing_component, "sve
 ${``}`;
 });
 set_paths({ "base": "", "assets": "" });
-set_version("1673659505128");
+set_version("1673735528131");
 const options = {
   csp: { "mode": "auto", "directives": { "upgrade-insecure-requests": false, "block-all-mixed-content": false }, "reportOnly": { "upgrade-insecure-requests": false, "block-all-mixed-content": false } },
   csrf_check_origin: true,
@@ -62,7 +62,7 @@ const options = {
   root: Root,
   service_worker: true,
   templates: {
-    app: ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n<html lang="en">\n\n<head>\n	<meta charset="utf-8" />\n	<link rel="icon" href="' + assets2 + '/favicon.png" />\n	<link rel="stylesheet" href="' + assets2 + '/app.css">\n	<link rel="stylesheet" href="' + assets2 + '/print.css">\n	<meta name="viewport" content="width=device-width" />\n\n	' + head + '\n</head>\n\n<body data-sveltekit-preload-data="hover">\n	<div style="display: contents">' + body + '</div>\n	<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"\n		data-id="timsmith23" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF813F"\n		data-position="Right" data-x_margin="18" data-y_margin="18"><\/script>\n</body>\n\n</html>',
+    app: ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n<html lang="en">\n\n<head>\n	<meta charset="utf-8" />\n	<link rel="icon" href="' + assets2 + '/favicon.png" />\n	<meta name="viewport" content="width=device-width" />\n\n	' + head + '\n</head>\n\n<body data-sveltekit-preload-data="hover">\n	<div style="display: contents">' + body + '</div>\n	<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"\n		data-id="timsmith23" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF813F"\n		data-position="Right" data-x_margin="18" data-y_margin="18"><\/script>\n</body>\n\n</html>',
     error: ({ status, message }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
