@@ -84,12 +84,12 @@ const app = "";
 const print = "";
 const _layout_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".page-wrapper.svelte-1o5foh{margin:0 auto;max-width:1200px}",
+  code: ".page-wrapper.svelte-1tt1fv3{margin:0 auto;max-width:1200px}",
   map: null
 };
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<div class="${"page-wrapper svelte-1o5foh"}">${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
+  return `<div class="${"page-wrapper svelte-1tt1fv3"}">${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
 	<main>${slots.default ? slots.default({}) : ``}</main>
 	${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</div>
 
