@@ -1,8 +1,8 @@
 // import adapter from '@sveltejs/adapter-auto';
 // import adapter from '@sveltejs/adapter-vercel';
-// import adapter from '@sveltejs/adapter-netlify';
+import adapter from '@sveltejs/adapter-netlify';
 // import adapter from '@sveltejs/adapter-cloudflare';
-import adapter from '@sveltejs/adapter-static';
+// import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
