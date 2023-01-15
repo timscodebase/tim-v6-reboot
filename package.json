@@ -36,10 +36,7 @@
 	},
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
-		"@sveltejs/adapter-cloudflare": "^1.0.3",
 		"@sveltejs/adapter-netlify": "^1.0.1",
-		"@sveltejs/adapter-static": "^1.0.3",
-		"@sveltejs/adapter-vercel": "^1.0.2",
 		"gsap": "^3.11.4",
 		"svelte-awesome": "^3.0.1",
 		"svelte-cubed": "^0.2.1",
