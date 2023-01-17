@@ -3,6 +3,9 @@
 	"version": "0.0.1",
 	"private": true,
 	"type": "module",
+	"prisma": {
+		"seed": "pnpx vite-node prisma/seed.ts"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -27,6 +30,7 @@
 		"eslint-plugin-svelte3": "^4.0.0",
 		"prettier": "^2.8.2",
 		"prettier-plugin-svelte": "^2.9.0",
+		"prisma": "^4.8.1",
 		"svelte": "^3.55.1",
 		"svelte-check": "^3.0.2",
 		"tslib": "^2.4.1",
@@ -36,6 +40,7 @@
 	},
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
+		"@prisma/client": "^4.8.1",
 		"@sveltejs/adapter-netlify": "^1.0.1",
 		"gsap": "^3.11.4",
 		"svelte-awesome": "^3.0.1",
