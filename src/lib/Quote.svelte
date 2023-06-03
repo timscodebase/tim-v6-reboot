@@ -1,5 +1,4 @@
 <script>
-	import { fly } from 'svelte/transition';
 	import Star from '$lib/Star.svelte';
 	import { onMount } from 'svelte';
 
