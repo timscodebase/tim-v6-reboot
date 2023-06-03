@@ -1,51 +1,52 @@
 <script>
-	import Star from '$lib/Star.svelte';
-	import { onMount } from 'svelte';
+	import { fly } from 'svelte/transition'
+	import Star from '$lib/Star.svelte'
+	import { onMount } from 'svelte'
 
-	let isStar = false;
+	let isStar = false
 
 	let quote = {
 		content: 'You are loved.',
 		author: 'Me ❤️'
-	};
+	}
 
-	let isCopied = false;
+	let isCopied = false
 
 	onMount(async () => {
 		try {
-			const res = await fetch('https://api.quotable.io/random');
-			const data = await res.json();
-			quote = data;
+			const res = await fetch('https://api.quotable.io/random')
+			const data = await res.json()
+			quote = data
 		} catch (err) {
-			console.error(err);
+			console.error(err)
 		}
 
 		setInterval(async () => {
 			try {
-				const res = await fetch('https://api.quotable.io/random');
-				const data = await res.json();
-				quote = data;
+				const res = await fetch('https://api.quotable.io/random')
+				const data = await res.json()
+				quote = data
 			} catch (err) {
-				console.error(err);
+				console.error(err)
 			}
-		}, 15000);
-	});
+		}, 15000)
+	})
 
 	const copyQuote = async () => {
-		isStar = true;
+		isStar = true
 		setTimeout(() => {
-			isStar = false;
-		}, 60);
+			isStar = false
+		}, 60)
 		try {
-			await navigator.clipboard.writeText(`${quote.content} - ${quote.author}`);
-			isCopied = true;
+			await navigator.clipboard.writeText(`${quote.content} - ${quote.author}`)
+			isCopied = true
 			setTimeout(() => {
-				isCopied = false;
-			}, 1500);
+				isCopied = false
+			}, 1500)
 		} catch (err) {
-			console.error('Failed to copy: ', err);
+			console.error('Failed to copy: ', err)
 		}
-	};
+	}
 </script>
 
 <section>
