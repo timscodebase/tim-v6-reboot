@@ -1,7 +1,7 @@
 <script lang="ts">
 		import { writable } from 'svelte/store';
 		import { isLogoAnimationEnded } from './stores';
-		const $isLogoAnimationEnded = writable(false);
+		$isLogoAnimationEnded = writable(false);
 </script>
 
 <div>

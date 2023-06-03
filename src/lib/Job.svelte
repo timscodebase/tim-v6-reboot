@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 		import type { RecentJobsType } from '$lib/types';
 
 		export let job: RecentJobsType;

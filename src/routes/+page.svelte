@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Quote from '$lib/Quote.svelte';
+	import Quote from '$lib/Quote.svelte'
 </script>
 
 <svelte:head>
@@ -53,8 +53,14 @@
 		</p>
 		<p class="teacher">
 			<span>Kevin Powell</span>
-			<a href="https://www.kevinpowell.co/" target="_blank" rel="noopener noreferrer"
+			<a href="https://www.kevinpowell.co" target="_blank" rel="noopener noreferrer"
 				>https://www.kevinpowell.co/</a
+			>
+		</p>
+		<p class="teacher">
+			<span>Matija</span>
+			<a href="https://joyofcode.xyz" target="_blank" rel="noopener noreferrer"
+				>https://joyofcode.xyz</a
 			>
 		</p>
 	</div>

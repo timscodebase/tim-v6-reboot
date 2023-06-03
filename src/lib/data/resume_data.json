@@ -1,6 +1,4 @@
-import type { ResumeDataType } from "$lib/types";
-
-export const resume_data = {
+{
   "recentJobs": [
     {
       "role": "Freelance Developer",
@@ -172,4 +170,4 @@ export const resume_data = {
       "url": "https://dev.to/tithos/sveltekit-css-houdini-59l8"
     }
   ]
-} as ResumeDataType;
+}
