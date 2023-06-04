@@ -1,7 +1,12 @@
 import { dev } from '$app/environment'
 
 export async function load({fetch}) {
-  const res = await fetch('src/lib/data/resume_data.json')
+  const res = await fetch('src/lib/data/resume_data.json', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
   const data = await res.json()
 
   return data
