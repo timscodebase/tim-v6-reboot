@@ -3,7 +3,7 @@
 
 <svelte:head>
 	<title>Tim Smith Uses</title>
-	<link rel="canonical" href="https://timsmith.tech">
+	<link rel="canonical" href="https://timsmith.tech" />
 	<meta name="description" content="This is the tech and software I use." />
 </svelte:head>
 

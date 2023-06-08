@@ -1,12 +1,16 @@
 <script lang="ts">
-	import Project from '$lib/Project.svelte';
-	import projectData from '$lib/data/projectData.json';
-	const { projects } = projectData;
+	// import Project from '$lib/Project.svelte'
+
+	// import type { ProjectType } from '$lib/types'
+
+	// export let data
+
+	// console.log('Data: ', data)
 </script>
 
 <svelte:head>
 	<title>Learning Projects</title>
-	<link rel="canonical" href="https://timsmith.tech">
+	<link rel="canonical" href="https://timsmith.tech" />
 	<meta name="description" content="Here is what I am up to these days" />
 </svelte:head>
 
@@ -18,11 +22,11 @@
 		design skills.
 	</p>
 
-	<div class="grid">
+	<!-- <div class="grid">
 		{#each projects as project}
 			<Project {project} />
 		{/each}
-	</div>
+	</div> -->
 </div>
 
 <style>

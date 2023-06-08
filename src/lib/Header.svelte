@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Logo from '$lib/Logo.svelte';
-	import Nav from '$lib/Nav.svelte';
+	import Logo from '$lib/Logo.svelte'
+	import Nav from '$lib/Nav.svelte'
 </script>
 
 <header>

@@ -1,7 +1,7 @@
 <script>
-	export let school;
+	export let school
 
-	const { name, location, startYear, endYear, fieldsOfStudy } = school;
+	const { name, location, startYear, endYear, fieldsOfStudy } = school
 </script>
 
 <article>

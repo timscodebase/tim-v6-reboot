@@ -1,7 +1,7 @@
 <script>
-	export let project;
+	export let project
 
-	const { name, image, description, url, github, tech } = project;
+	const { name, image, description, url, github, tech } = project
 </script>
 
 <article>

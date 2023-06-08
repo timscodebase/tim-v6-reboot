@@ -1,6 +1,6 @@
 // import adapter from '@sveltejs/adapter-auto';
-import adapter from '@sveltejs/adapter-netlify';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import adapter from '@sveltejs/adapter-netlify'
+import { vitePreprocess } from '@sveltejs/kit/vite'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -11,10 +11,10 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
-			'lib': 'src/lib',
+			lib: 'src/lib',
 			'lib/*': 'src/lib/*'
 		}
 	}
-};
+}
 
-export default config;
+export default config

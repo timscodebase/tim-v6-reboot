@@ -1,25 +1,25 @@
 <script>
-	import { onMount } from 'svelte';
-	import { isLogoAnimationEnded } from './stores';
+	import { onMount } from 'svelte'
+	import { isLogoAnimationEnded } from './stores'
 
 	onMount(() => {
-		const body = document.querySelector('body');
-		const name = document.querySelector('.name');
-		isLogoAnimationEnded.update(() => false);
+		const body = document.querySelector('body')
+		const name = document.querySelector('.name')
+		isLogoAnimationEnded.update(() => false)
 
 		name?.addEventListener('animationend', () => {
-			isLogoAnimationEnded.update(() => true);
-			body?.classList.add('shake');
-			console.log('animation ended');
-		});
+			isLogoAnimationEnded.update(() => true)
+			body?.classList.add('shake')
+			console.log('animation ended')
+		})
 
 		return () => {
 			name?.removeEventListener('animationend', () => {
-				isLogoAnimationEnded.set(false);
-				body?.classList.remove('shake');
-			});
-		};
-	});
+				isLogoAnimationEnded.set(false)
+				body?.classList.remove('shake')
+			})
+		}
+	})
 </script>
 
 <a class="logo-wrapper" href="/">

@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>About Me</title>
-	<link rel="canonical" href="https://timsmith.tech">
+	<link rel="canonical" href="https://timsmith.tech" />
 	<meta name="description" content="About this app" />
 </svelte:head>
 
