@@ -21,7 +21,7 @@
 		<img
 			width="330"
 			height="610"
-			src="https://res.cloudinary.com/tihos/image/upload/f_auto,q_auto/v1662952487/me_xxazr8.png"
+			src="https://res.cloudinary.com/tithos/image/upload/f_auto,q_auto/v1661646313/me-2_uxvdhp.png"
 			alt="me"
 		/>
 		<Quote />
