@@ -2,7 +2,7 @@ import type { PageLoad } from './$types';
 
 export const load = (async (e) => {
 	try {
-		const res = await e.fetch('src/lib/data/resume_data.json', {
+		const res = await e.fetch('$lib/data/resume_data.json', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
