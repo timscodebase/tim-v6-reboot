@@ -14,6 +14,7 @@ export type EducationType = {
 export type JobsType = {
 	title: string
 	company: string
+	location: string
 	startYear: number
 	endYear: number | null
 	description: string
