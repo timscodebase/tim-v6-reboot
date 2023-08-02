@@ -1,20 +1,20 @@
 <script lang="ts">
-	import type { RecentJobsType } from '$lib/types'
+	import type { JobsType } from '$lib/types'
 
-	export let job: RecentJobsType
+	export let job: JobsType
 
-	const { role, company, startYear, endYear, description, jobSkills } = job
+	const { title, company, startYear, endYear, description, skills } = job
 </script>
 
 <article class="job">
 	<header>
-		<h3>{role} - {company}</h3>
+		<h3>{title} - {company}</h3>
 		<p>{startYear} - {endYear ? endYear : 'Present'}</p>
 	</header>
 	<p>{description}</p>
 	<h4>Core Skills</h4>
 	<ul>
-		{#each jobSkills as skill}
+		{#each skills as skill}
 			<li>{skill}</li>
 		{/each}
 	</ul>

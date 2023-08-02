@@ -6,7 +6,7 @@
 
 	export let data: ResumeDataType
 
-	const { articles, education, recentJobs } = data
+	const { articles, education, jobs } = data
 </script>
 
 <svelte:head>
@@ -19,20 +19,20 @@
 	<h1>Resume</h1>
 
 	<h2>Past Jobs</h2>
-	{#each recentJobs as job}
+	{#each jobs as job}
 		<Job {job} />
 	{/each}
 
 	<h2>Education</h2>
-	{#each education as school}
+	{#each data.education as school}
 		<School {school} />
 	{/each}
 
 	<h2>Articles</h2>
 	<ul class="articles">
-		{#each articles as article}
+		{#each data.articles as article}
 			<li>
-				<a href={article.url} rel="noopener noreferrer">{article.title}</a>
+				<a href={article.url} target="_blank" rel="noopener noreferrer">{article.title}</a>
 			</li>
 		{/each}
 	</ul>

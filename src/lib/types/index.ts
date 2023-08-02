@@ -12,12 +12,12 @@ export type EducationType = {
 }
 
 export type JobsType = {
-	role: string
+	title: string
 	company: string
 	startYear: number
 	endYear: number | null
 	description: string
-	jobSkills: string[]
+	skills: string[]
 }
 
 export type ProjectType = {
@@ -27,4 +27,10 @@ export type ProjectType = {
 	url: string
 	github: string
 	tech: string[]
+}
+
+export type ResumeDataType = {
+	articles: ArticlesType[]
+	education: EducationType[]
+	jobs: JobsType[]
 }
