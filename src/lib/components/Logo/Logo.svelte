@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte'
-	import { isLogoAnimationEnded } from './stores'
+	import { isLogoAnimationEnded } from '../../stores'
 
 	onMount(() => {
 		const body = document.querySelector('body')

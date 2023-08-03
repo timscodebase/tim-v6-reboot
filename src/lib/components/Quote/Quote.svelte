@@ -1,6 +1,6 @@
 <script>
 	import { fly } from 'svelte/transition'
-	import Star from '$lib/Star.svelte'
+	import { Star } from '$lib'
 	import { onMount } from 'svelte'
 
 	let isStar = false

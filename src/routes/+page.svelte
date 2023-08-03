@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Quote from '$lib/Quote.svelte'
+	import { Quote } from '$lib'
 </script>
 
 <svelte:head>

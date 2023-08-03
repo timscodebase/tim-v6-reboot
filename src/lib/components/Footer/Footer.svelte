@@ -1,7 +1,11 @@
 <footer>
 	<section>
-		<a href="https://github.com/timscodebase" target="_blank" rel="noopener noreferrer">Github</a>
-		<a href="https://twitter.com/timsmith23" target="_blank" rel="noopener noreferrer">Twitter</a>
+		<a href="https://github.com/timscodebase" target="_blank" rel="noopener noreferrer"
+			>Github | Timscodebase</a
+		>
+		<a href="https://github.com/webruin" target="_blank" rel="noopener noreferrer"
+			>Gitub | Webruin</a
+		>
 	</section>
 	<a class="logo" href="/">
 		<p>
@@ -28,10 +32,6 @@
 		padding: 4rem 3rem;
 		text-align: center;
 		background: rgba(0, 0, 0, 0.2);
-	}
-
-	a {
-		padding: 1rem;
 	}
 
 	@media print {

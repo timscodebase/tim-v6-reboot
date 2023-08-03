@@ -38,7 +38,7 @@
 		"vitest": "^0.31.4"
 	},
 	"dependencies": {
-		"@fontsource/fira-mono": "^5.0.5",
+		"@fontsource/fira-mono": "^5.0.6",
 		"@sveltejs/adapter-netlify": "^2.0.8",
 		"dotenv": "^16.3.1",
 		"gsap": "^3.12.2",

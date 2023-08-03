@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { writable } from 'svelte/store'
-	import { isLogoAnimationEnded } from './stores'
+	import { isLogoAnimationEnded } from '../../stores'
 	$isLogoAnimationEnded = writable(false)
 </script>
 

@@ -1,8 +1,8 @@
 <script lang="ts">
 	import type { ResumeDataType } from '$lib/types'
 
-	import Job from '$lib/Job.svelte'
-	import School from '$lib/School.svelte'
+	import { Job } from '$lib'
+	import { School } from '$lib'
 
 	const data: ResumeDataType = {
 		articles: [
@@ -142,9 +142,7 @@
 	<h2>Articles</h2>
 	<ul class="articles">
 		{#each articles as article}
-			<li>
-				<a href={article.url} target="_blank" rel="noopener noreferrer">{article.title}</a>
-			</li>
+			<li />
 		{/each}
 	</ul>
 </div>
