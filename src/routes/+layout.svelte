@@ -13,8 +13,6 @@
 	<Footer />
 </div>
 
-<Analytics />
-
 <style global>
 	.page-wrapper {
 		margin: 0 auto;
