@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-J59Q6MQ46K">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4EKXDW9BHH">
 	</script>
 	<script>
 		window.dataLayer = window.dataLayer || []
