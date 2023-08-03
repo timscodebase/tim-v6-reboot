@@ -1,7 +1,5 @@
 <script lang="ts">
 	import { Header } from '$lib'
-	import { Footer } from '$lib'
-	import { Analytics } from '$lib'
 
 	import '../app.css'
 	import '../print.css'
