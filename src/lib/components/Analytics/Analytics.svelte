@@ -3,7 +3,7 @@
 
 	$: {
 		if (typeof gtag !== 'undefined') {
-			gtag('config', 'G-J59Q6MQ46K', {
+			gtag('config', 'G-4EKXDW9BHH', {
 				page_title: document.title,
 				page_path: $page.url.pathname
 			})
