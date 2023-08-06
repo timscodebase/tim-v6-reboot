@@ -1,5 +1,6 @@
 <script lang="ts">
 	export let data
+	const { googleApiKey } = data.props
 </script>
 
 <h1>Gresham Hacktoberfest Jam</h1>
@@ -18,7 +19,7 @@
 		loading="lazy"
 		allowfullscreen
 		referrerpolicy="no-referrer-when-downgrade"
-		src={`https://www.google.com/maps/embed/v1/place?key=${data.googleApiKey}&q=Gresham+OR`}
+		src={`https://www.google.com/maps/embed/v1/place?key=${googleApiKey}&q=Gresham+OR`}
 	/>
 </div>
 
