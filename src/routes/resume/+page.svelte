@@ -126,7 +126,6 @@
 	<meta name="description" content="Here is my resume.  Hire me!" />
 </svelte:head>
 
-<div class="content">
 	<h1>Resume</h1>
 
 	<h2>Past Jobs</h2>

@@ -8,7 +8,7 @@
 	--light-blue: rgb(143, 181, 209);
 
 	--color-text: var(--white);
-	--color-blue: #001180;
+	--color-blue: hsl(232, 100%, 25%);
 	--color-orange: hsl(24deg 88% 60%);
 	--color-footer: var(--light-blue);
 
