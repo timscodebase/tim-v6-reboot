@@ -126,25 +126,24 @@
 	<meta name="description" content="Here is my resume.  Hire me!" />
 </svelte:head>
 
-	<h1>Resume</h1>
+<h1>Resume</h1>
 
-	<h2>Past Jobs</h2>
-	{#each jobs as job}
-		<Job {job} />
+<h2>Past Jobs</h2>
+{#each jobs as job}
+	<Job {job} />
+{/each}
+
+<h2>Education</h2>
+{#each education as school}
+	<School {school} />
+{/each}
+
+<h2>Articles</h2>
+<ul class="articles">
+	{#each articles as article}
+		<li />
 	{/each}
-
-	<h2>Education</h2>
-	{#each education as school}
-		<School {school} />
-	{/each}
-
-	<h2>Articles</h2>
-	<ul class="articles">
-		{#each articles as article}
-			<li />
-		{/each}
-	</ul>
-</div>
+</ul>
 
 <style>
 	.articles {
