@@ -1,8 +1,3 @@
-<script lang="ts">
-	export let data
-	const { googleApiKey } = data.props
-</script>
-
 <h1>Gresham Hacktoberfest Jam</h1>
 <p>
 	Let's come together to celebrate open source software and the Gresham community! We'll be hosting
@@ -19,7 +14,7 @@
 		loading="lazy"
 		allowfullscreen
 		referrerpolicy="no-referrer-when-downgrade"
-		src={`https://www.google.com/maps/embed/v1/place?key=${googleApiKey}&q=Gresham+OR`}
+		src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBcKwV9qpObdXpCReq1dDMyIkqBa0fcf3k&q=Gresham+OR`}
 	/>
 </div>
 
