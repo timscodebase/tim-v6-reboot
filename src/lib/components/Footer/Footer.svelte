@@ -1,10 +1,10 @@
 <footer>
 	<section>
+		<a href="https://linkedin.com/in/timsmith25" target="_blank" rel="noopener noreferrer"
+			>LinkedIn</a
+		>
 		<a href="https://github.com/timscodebase" target="_blank" rel="noopener noreferrer"
 			>Github | Timscodebase</a
-		>
-		<a href="https://github.com/webruin" target="_blank" rel="noopener noreferrer"
-			>Gitub | Webruin</a
 		>
 	</section>
 	<a class="logo" href="/">
@@ -14,10 +14,10 @@
 		</p>
 	</a>
 	<section>
-		<a href="https://linkedin.com/in/timsmith25" target="_blank" rel="noopener noreferrer"
-			>LinkedIn</a
-		>
 		<a href="https://codepen.io/WebRuin" target="_blank" rel="noopener noreferrer">CodePen</a>
+		<a href="https://github.com/webruin" target="_blank" rel="noopener noreferrer"
+			>Gitub | Webruin</a
+		>
 	</section>
 </footer>
 

@@ -14,7 +14,7 @@
 		loading="lazy"
 		allowfullscreen
 		referrerpolicy="no-referrer-when-downgrade"
-		src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBcKwV9qpObdXpCReq1dDMyIkqBa0fcf3k&q=Gresham+OR`}
+		src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBcKwV9qpObdXpCReq1dDMyIkqBa0fcf3k&q=Gresham,+OR`}
 	/>
 </div>
 
