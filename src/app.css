@@ -31,6 +31,19 @@
 		#e9c58b 100%
 	);
 
+	--gradient-grey: linear-gradient(135deg,
+		hsl(223, 73%, 65%),
+		hsl(223, 59%, 57%),
+		hsl(223, 45%, 50%),
+		hsl(223, 41%, 43%),
+		hsl(223, 37%, 36%),
+		hsl(222, 37%, 36%),
+		hsl(222, 33%, 37%),
+		hsl(222, 33%, 37%),
+		hsl(222, 33%, 37%),
+		hsl(222, 33%, 37%)
+	);
+
 	--gradient-blue: linear-gradient(140deg,
 			hsl(236, 54%, 25%),
 			hsl(236, 54%, 31%),
@@ -117,7 +130,7 @@ html {
 	font-family: system-ui, sans-serif;
 	font-size: var(--font-size-base);
 	color: var(--color-text);
-	background: var(--gradient-blue);
+	background: var(--gradient-grey);
 }
 
 a {
