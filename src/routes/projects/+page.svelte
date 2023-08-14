@@ -16,26 +16,14 @@
 
 <h1>Learning Projects</h1>
 <p>
-	These projects enable me to learn new frameworks, languanges, and all the new features comming
-	HTML, CSS, and JS. I also use these projects to learn new design patterns and to practice my
-	design skills.
+	These projects enable me to learn new frameworks, languages, and all the new features coming HTML,
+	CSS, and JS. I also use these projects to learn new design patterns and to practice my design
+	skills.
 </p>
-
-<!-- <div class="grid">
-		{#each projects as project}
-			<Project {project} />
-		{/each}
-	</div> -->
 
 <style>
 	p {
 		font-size: 2rem;
 		padding-top: 2rem;
-	}
-
-	.content {
-		width: 100%;
-		max-width: var(--column-width);
-		margin: var(--column-margin-top) auto 0 auto;
 	}
 </style>

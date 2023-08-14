@@ -163,9 +163,4 @@
 	li {
 		padding-top: 0.5rem;
 	}
-
-	a {
-		text-decoration: underline;
-		text-decoration-color: hsl(21deg 89% 59%);
-	}
 </style>
