@@ -145,7 +145,7 @@
 		width: 350px;
 		opacity: 1;
 		margin: 0 auto;
-		aspect-ratio: attr(width) / attr(height);
+		border-radius: 0 0 var(--spacer) var(--spacer);
 	}
 
 	span {
