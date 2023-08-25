@@ -39,9 +39,11 @@
 	},
 	"dependencies": {
 		"@fontsource/fira-mono": "^5.0.6",
+		"@sentry/sveltekit": "^7.64.0",
 		"@sveltejs/adapter-netlify": "^2.0.8",
 		"dotenv": "^16.3.1",
 		"gsap": "^3.12.2",
+		"pnpm": "^8.6.12",
 		"redis": "^4.6.7",
 		"svelte-awesome": "^3.2.1",
 		"svelte-cubed": "^0.2.1",
