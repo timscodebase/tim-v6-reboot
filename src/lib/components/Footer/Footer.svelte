@@ -1,12 +1,8 @@
+<script lang='ts'>
+	import { Contact } from "$lib"
+</script>
+
 <footer>
-	<section>
-		<a href="https://linkedin.com/in/timsmith25" target="_blank" rel="noopener noreferrer"
-			>LinkedIn</a
-		>
-		<a href="https://github.com/timscodebase" target="_blank" rel="noopener noreferrer"
-			>Github | Timscodebase</a
-		>
-	</section>
 	<a class="logo" href="/">
 		<p>
 			<span class="name">Tim Smith</span>
@@ -14,11 +10,18 @@
 		</p>
 	</a>
 	<section>
+		<a href="https://linkedin.com/in/timsmith25" target="_blank" rel="noopener noreferrer"
+			>LinkedIn</a
+		>
+		<a href="https://github.com/timscodebase" target="_blank" rel="noopener noreferrer"
+			>Github</a
+		>
 		<a href="https://codepen.io/WebRuin" target="_blank" rel="noopener noreferrer">CodePen</a>
 		<a href="https://github.com/webruin" target="_blank" rel="noopener noreferrer"
-			>Gitub | Webruin</a
+			>Gitub (older)</a
 		>
 	</section>
+	<Contact />
 </footer>
 
 <style>
@@ -84,6 +87,11 @@
 		flex-wrap: wrap;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.logo {
+		margin: 0 auto;
+		margin-bottom: calc(var(--spacer) / 2);
 	}
 
 	.logo:hover {

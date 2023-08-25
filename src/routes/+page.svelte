@@ -20,43 +20,20 @@
 
 	<div class="highlights">
 		<p>
-			I am a passionate Frontend Developer with 15+ years of experience in crafting exceptional web
-			solutions. Throughout my career, I have had the privilege to work on diverse projects,
-			contributing to various Fortune 500 companies and startups.
+			I excel at building websites, web apps, and email campaigns, using various web technologies
+			and frameworks, such as SvelteKit, React, Next.js, Angular, Ruby on Rails, WooCommerce, and
+			HTML5. I have successfully delivered engaging and high-performance web solutions for diverse
+			projects, ranging from e-commerce to gaming to healthcare. I have also played pivotal roles in
+			multiple startups, where I planned and oversaw frontend code, fostering collaboration and
+			innovation. Additionally, I am a cybersecurity enthusiast, who stays up-to-date with the
+			latest practices, ensuring the safety and privacy of users' data.
 		</p>
 		<p>
-			📧 Building Impactful Email Campaigns: I have successfully created engaging email campaigns
-			for prominent Fortune 500 companies, leveraging my expertise in designing captivating user
-			interfaces and seamless interactions.
-		</p>
-
-		<p>
-			🌱 Startup Success: My journey has led me to play pivotal roles in multiple startups, where I
-			planned and oversaw frontend code. This experience has honed my adaptability and innovative
-			thinking, driving successful project deliveries.
-		</p>
-
-		<p>
-			👨‍💼 Leadership & Project Management: My leadership skills and project management acumen have
-			enabled me to guide teams efficiently, fostering collaboration and achieving exceptional
-			results.
-		</p>
-
-		<p>
-			💻 Tech Enthusiast: My career has been a continuous learning curve, working with a range of
-			web frameworks and technologies. Presently, my focus centers on SvelteKit and JavaScript,
-			enabling me to build high-performance web solutions.
-		</p>
-
-		<p>
-			🔒 Cybersecurity Advocate: In today's digital landscape, cybersecurity is paramount. I take
-			pride in staying up-to-date with the latest practices, ensuring the safety and privacy of
-			users' data.
-		</p>
-
-		<p>
-			I believe my diverse experiences have shaped me into a well-rounded professional, ready to
-			take on new challenges in frontend development. Let's connect and grow together! 🌐
+			My goal is to leverage my diverse experiences and skills to create impactful and user-friendly
+			web solutions that meet the needs and expectations of clients and users. I am always eager to
+			learn new technologies and frameworks, and to take on new challenges in web development. I
+			believe in growing together with the web development community, and I welcome any
+			opportunities to connect and collaborate with fellow web developers and tech enthusiasts.
 		</p>
 		<section class="grid">
 			<img

@@ -1,8 +1,8 @@
 import Analytics from "./components/Analytics"
 export { Analytics }
 
-import Counter from "./components/Counter"
-export { Counter }
+import Contact from "./components/Contact"
+export { Contact }
 
 import ExternalLink from "./components/ExternalLink"
 export { ExternalLink }

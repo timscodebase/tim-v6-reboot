@@ -104,6 +104,10 @@
 		-0.2px 40.8px 49.9px -1.8px hsl(var(--shadow-color) / 0.31);
 }
 
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
 @font-face {
 	font-family: 'Prompt';
 	src: url('/fonts/Prompt-Black.ttf') format('truetype');
@@ -274,4 +278,30 @@ html::-webkit-scrollbar-thumb {
 	border-radius: 50vw;
 	border: 2px solid var(--white);
 	background: var(--gradient-red);
+}
+
+.align-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.quarter {
+	width: 23%;
+}
+
+.double {
+	width: 48%;
+}
+
+.three-quarter {
+	width: 73%;
+}
+
+.full {
+	width:98%;
 }
