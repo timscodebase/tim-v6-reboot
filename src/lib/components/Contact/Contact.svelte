@@ -35,12 +35,6 @@
     gap: calc(var(--spacer) / 2);
   }
 
-  @media (max-width: 900px) {
-    form {
-      grid-template-columns: 1fr;
-    }
-  }
-
   form p {
     font-size: 1.5rem;
   }
@@ -52,27 +46,56 @@
     grid-template-columns: 1fr;
     gap: calc(var(--spacer) / 2);
   }
-  
-  input, textarea {
-    width: calc(100% - (var(--spacer) / 4));
+
+  input, textarea, button {
+    width: calc(100% - var(--spacer) / 4);
     font-size: 1.05rem;
     padding: calc(var(--spacer) / 4);
     border-radius: calc(var(--spacer) / 4);
+  }
+  
+  input, textarea {
     border: 4px solid var(--color-orange);
   }
 
   button {
-    width: calc(100% - var(--spacer)/4);
-    font-size: 1.05rem;
-    padding: calc(var(--spacer) / 4);
-    background: var(--color-orange);
-    border-radius: calc(var(--spacer) / 4);
-    border: 4px solid var(--color-orange);
+    background: var(--gradient-red);
+    border: 4px solid var(--gradient-red);
     margin: 0 auto;
     color: var(--white);
   }
 
   label {
     width: 100%;
+  }
+
+  @media (max-width: 900px) {
+    form {
+      grid-template-columns: 1fr;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+    }
+
+    form p {
+      font-size: 1rem;
+    }
+
+    input, textarea, button {
+      width: calc(100% - var(--spacer) / 6);
+      font-size: 0.8rem;
+      padding: calc(var(--spacer) / 6);
+      border-radius: calc(var(--spacer) / 6);
+    }
+
+    form, .grid {
+      margin-top: calc(var(--spacer) / 6);
+      margin-bottom: calc(var(--spacer) / 2);
+    }
+
+    .grid {
+      gap: calc(var(--spacer) / 6);
+    }
   }
 </style>

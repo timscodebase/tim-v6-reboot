@@ -61,7 +61,24 @@
 
 	section {
 		display: flex;
+		flex-wrap: wrap;
 		gap: var(--spacer);
+	}
+
+	a {
+		width: calc(50% - var(--spacer) / 2);
+		text-align: left;
+	}
+
+	@media (max-width: 900px) {
+		/* every other select a */
+		section a:nth-child(2n) {
+			text-align: right;
+		}
+
+		.logo {
+			width: 100%;
+		}
 	}
 	span {
 		font-size: 2rem;
@@ -73,6 +90,7 @@
 	}
 
 	.name {
+		width: 100%;
 		font-size: 2rem;
 		color: var(--color-footer);
 		font-weight: 900;
