@@ -5,7 +5,7 @@
 	}
 </script>
 
-<a href={article.url} target="_blank" rel="noopener noreferrer">{article.title}</a>
+<a data-sveltekit-preload-data="tap" href={article.url} target="_blank" rel="noopener noreferrer">{article.title}</a>
 
 <style>
 </style>

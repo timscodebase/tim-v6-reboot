@@ -4,7 +4,7 @@
 
 <form name="contact" method="POST" data-netlify="true">
   <div>
-    <h3>Contact Me</h3>
+    <h3>Let's Connect</h3>
     <p>I am always open to new opportunities and projects. Please reach out if you would like chat about a future project, or if you have any question or comment. 😀</p>
   </div>
   <p class="grid">

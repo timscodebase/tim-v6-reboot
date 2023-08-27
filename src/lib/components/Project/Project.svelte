@@ -4,7 +4,7 @@
 	const { name, image, description, url, github, tech } = project
 </script>
 
-<a data-sveltekit-preload-data="tap"rticle>
+<article>
 	<div class="wrapper">
 		<section class="info">
 			<header>

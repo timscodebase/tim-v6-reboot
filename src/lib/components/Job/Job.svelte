@@ -6,7 +6,7 @@
 	const { title, company, startYear, endYear, description, skills } = job
 </script>
 
-<a data-sveltekit-preload-data="tap"rticle class="job">
+<article class="job">
 	<header>
 		<h3>{title} - {company}</h3>
 		<p>{startYear} - {endYear ? endYear : 'Present'}</p>
