@@ -3,21 +3,21 @@
 </script>
 
 <footer>
-	<a class="logo" href="/">
+	<a data-sveltekit-preload-data="tap" class="logo" href="/">
 		<p>
 			<span class="name">Tim Smith</span>
 			<span class="date">&copy; {new Date().getFullYear()}</span>
 		</p>
 	</a>
 	<section>
-		<a href="https://linkedin.com/in/timsmith25" target="_blank" rel="noopener noreferrer"
+		<a data-sveltekit-preload-data="tap" href="https://linkedin.com/in/timsmith25" target="_blank" rel="noopener noreferrer"
 			>LinkedIn</a
 		>
-		<a href="https://github.com/timscodebase" target="_blank" rel="noopener noreferrer"
+		<a data-sveltekit-preload-data="tap" href="https://github.com/timscodebase" target="_blank" rel="noopener noreferrer"
 			>Github</a
 		>
-		<a href="https://codepen.io/WebRuin" target="_blank" rel="noopener noreferrer">CodePen</a>
-		<a href="https://github.com/webruin" target="_blank" rel="noopener noreferrer"
+		<a data-sveltekit-preload-data="tap" href="https://codepen.io/WebRuin" target="_blank" rel="noopener noreferrer">CodePen</a>
+		<a data-sveltekit-preload-data="tap" href="https://github.com/webruin" target="_blank" rel="noopener noreferrer"
 			>Gitub (older)</a
 		>
 	</section>

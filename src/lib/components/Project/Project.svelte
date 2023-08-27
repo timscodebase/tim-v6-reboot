@@ -4,7 +4,7 @@
 	const { name, image, description, url, github, tech } = project
 </script>
 
-<article>
+<a data-sveltekit-preload-data="tap"rticle>
 	<div class="wrapper">
 		<section class="info">
 			<header>
@@ -20,8 +20,8 @@
 				</div>
 			</div>
 			<div class="links">
-				<a href={url} target="_blank" rel="noopener noreferrer">View Site</a>
-				<a href={github} target="_blank" rel="noopener noreferrer">View Code</a>
+				<a data-sveltekit-preload-data="tap" href={url} target="_blank" rel="noopener noreferrer">View Site</a>
+				<a data-sveltekit-preload-data="tap" href={github} target="_blank" rel="noopener noreferrer">View Code</a>
 			</div>
 		</section>
 		<section class="site">

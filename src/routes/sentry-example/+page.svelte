@@ -54,11 +54,11 @@ Feel free to delete this file and the entire sentry route.
 
     <p>
       2. Look for the error on the
-      <a href="https://partners-in-code.sentry.io/issues/?project=5672263">Issues Page</a>.
+      <a data-sveltekit-preload-data="tap" href="https://partners-in-code.sentry.io/issues/?project=5672263">Issues Page</a>.
     </p>
     <p style="margin-top: 24px;">
       For more information, take a look at the
-      <a href="https://docs.sentry.io/platforms/javascript/guides/sveltekit/">
+      <a data-sveltekit-preload-data="tap" href="https://docs.sentry.io/platforms/javascript/guides/sveltekit/">
         Sentry SvelteKit Documentation
       </a>
     </p>

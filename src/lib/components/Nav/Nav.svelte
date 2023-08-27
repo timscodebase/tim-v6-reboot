@@ -6,10 +6,10 @@
 
 <div>
 	<nav class:fly-down={loaded} aria-label="Main">
-		<a href="/">Me</a>
-		<a href="/projects">Projects</a>
-		<a href="/resume">Resume</a>
-		<a href="/uses">Uses</a>
+		<a data-sveltekit-preload-data="tap" href="/">Me</a>
+		<a data-sveltekit-preload-data="tap" href="/projects">Projects</a>
+		<a data-sveltekit-preload-data="tap" href="/resume">Resume</a>
+		<a data-sveltekit-preload-data="tap" href="/uses">Uses</a>
 	</nav>
 </div>
 

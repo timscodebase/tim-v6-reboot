@@ -4,7 +4,7 @@
 	const { name, location, startYear, endYear, fieldsOfStudy } = school
 </script>
 
-<article>
+<a data-sveltekit-preload-data="tap"rticle>
 	<header>
 		<h3>{name} - {location}</h3>
 		<p>{startYear} - {endYear ? endYear : 'Present'}</p>

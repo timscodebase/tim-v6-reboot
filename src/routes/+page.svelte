@@ -1,5 +1,16 @@
 <script lang="ts">
+	import { fly } from 'svelte/transition'
 	import { Quote } from '$lib'
+
+  function preload(src: string) {
+		return new Promise(function(resolve) {
+			let img = new Image()
+			img.onload = resolve
+			img.src = src
+		})
+	}
+
+	let src = 'https://res.cloudinary.com/tithos/image/upload/f_auto,q_auto/v1661646313/me-2_uxvdhp.png'
 </script>
 
 <svelte:head>
@@ -36,12 +47,15 @@
 			opportunities to connect and collaborate with fellow web developers and tech enthusiasts.
 		</p>
 		<section class="grid">
-			<img
+			{#await preload(src) then _}
+				<img
+				in:fly
 				width="330"
 				height="610"
-				src="https://res.cloudinary.com/tithos/image/upload/f_auto,q_auto/v1661646313/me-2_uxvdhp.png"
+				{src}
 				alt="me"
 			/>
+			{/await}
 			<Quote />
 		</section>
 		<p>
@@ -56,29 +70,29 @@
 	<div class="teachers">
 		<p class="teacher">
 			<span>Wes Bos</span>
-			<a href="https://wesbos.com" target="_blank" rel="noopener noreferrer">https://wesbos.com</a>
+			<a data-sveltekit-preload-data="tap" href="https://wesbos.com" target="_blank" rel="noopener noreferrer">https://wesbos.com</a>
 		</p>
 		<p class="teacher">
 			<span>Scott Tolinski</span>
-			<a href="https://scotttolinski.com" target="_blank" rel="noopener noreferrer"
+			<a data-sveltekit-preload-data="tap" href="https://scotttolinski.com" target="_blank" rel="noopener noreferrer"
 				>https://scotttolinski.com</a
 			>
 		</p>
 		<p class="teacher">
 			<span>Chris Coyier</span>
-			<a href="https://chriscoyier.net" target="_blank" rel="noopener noreferrer"
+			<a data-sveltekit-preload-data="tap" href="https://chriscoyier.net" target="_blank" rel="noopener noreferrer"
 				>https://chriscoyier.net</a
 			>
 		</p>
 		<p class="teacher">
 			<span>Kevin Powell</span>
-			<a href="https://www.kevinpowell.co" target="_blank" rel="noopener noreferrer"
+			<a data-sveltekit-preload-data="tap" href="https://www.kevinpowell.co" target="_blank" rel="noopener noreferrer"
 				>https://www.kevinpowell.co/</a
 			>
 		</p>
 		<p class="teacher">
 			<span>Matija</span>
-			<a href="https://joyofcode.xyz" target="_blank" rel="noopener noreferrer"
+			<a data-sveltekit-preload-data="tap" href="https://joyofcode.xyz" target="_blank" rel="noopener noreferrer"
 				>https://joyofcode.xyz</a
 			>
 		</p>
@@ -140,6 +154,10 @@
 		img {
 			width: 100%;
 			height: auto;
+		}
+		.highlights p {
+			padding-top: 0;
+			font-size: var(--font-size-sm);
 		}
 	}
 

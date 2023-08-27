@@ -21,7 +21,7 @@
 	})
 </script>
 
-<a class="logo-wrapper" href="/">
+<a data-sveltekit-preload-data="tap" class="logo-wrapper" href="/">
 	<p class="name">Tim Smith</p>
 	<p class="title">Full Stack Web Engineer</p>
 </a>
