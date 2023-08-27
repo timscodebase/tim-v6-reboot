@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte'
-	import { isLogoAnimationEnded } from '../../stores'
+	import { isLogoAnimationEnded } from '$lib/stores'
 
 	onMount(() => {
 		const body = document.querySelector('body')
@@ -10,7 +10,6 @@
 		name?.addEventListener('animationend', () => {
 			isLogoAnimationEnded.update(() => true)
 			body?.classList.add('shake')
-			console.log('animation ended')
 		})
 
 		return () => {

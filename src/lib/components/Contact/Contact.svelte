@@ -9,13 +9,13 @@
   </div>
   <p class="grid">
     <input type="hidden" name="form-name" value="contact" />
-    <label for="name">
+    <label>
       <input type="text" name="name" placeholder="What is your name" />
     </label>
-    <label for="email">
+    <label>
       <input type="email" name="email" placeholder="What is your email" />
     </label>
-    <label for="message">
+    <label>
       <textarea name="message" placeholder="Leave your message here..."></textarea>
     </label>
     <button type="submit">Send</button>

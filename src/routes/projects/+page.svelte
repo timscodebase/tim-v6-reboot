@@ -1,13 +1,3 @@
-<script lang="ts">
-	// import Project from '$lib/Project.svelte'
-
-	// import type { ProjectType } from '$lib/types'
-
-	// export let data
-
-	// console.log('Data: ', data)
-</script>
-
 <svelte:head>
 	<title>Learning Projects</title>
 	<link rel="canonical" href="https://timsmith.tech" />

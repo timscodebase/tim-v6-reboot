@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { writable } from 'svelte/store'
-	import { isLogoAnimationEnded } from '../../stores'
-	$isLogoAnimationEnded = writable(false)
+	import { isLogoAnimationEnded } from '$lib/stores'
+
+	$: loaded = $isLogoAnimationEnded
 </script>
 
 <div>
-	<nav class:fly-down={$isLogoAnimationEnded} aria-label="Main">
+	<nav class:fly-down={loaded} aria-label="Main">
 		<a href="/">Me</a>
 		<a href="/projects">Projects</a>
 		<a href="/resume">Resume</a>
